@@ -1,0 +1,231 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+/*Меню*/
+nav{
+  font-size: 25px;
+  text-align: right;
+  padding: 20px;
+  background-color: rgba(9, 8, 8, 0.6);
+  width: 98%;
+  position: fixed;
+  z-index: 1;
+}
+nav span{
+  color: orange;
+}
+nav p{
+  float: left;
+  padding: 5px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  color: orange;
+}
+nav li{
+  display: inline-block;
+  padding-left: 15px;
+}
+/*Фон*/
+.background-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 95%;
+  width: 100%;
+}
+.background-video::after{
+  content:"";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+}
+/*Левый блок Приветствие*/
+.sectionHI{
+  width: 35%;
+  max-height: 90%;
+  font-size: 70px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.sectionHI p{
+  padding: 10px;
+}
+.sectionHI p:nth-child(2)
+{
+  font-size: 30px;
+}
+.sectionHI p:nth-child(3)
+{
+  font-size: 17px;
+}
+.sectionHI div{
+  padding: 10px;
+  font-size: 17px;
+  background-color: orange;
+  display: inline-block;
+  border-radius: 5%;
+}
+.sectionHI div a{
+  text-decoration: none;
+  color: black;
+}
+.sectionHI div a:hover{
+  color: white;
+}
+.sectionHI div:hover{
+  background-color: rgba(148, 118, 46, 0.8);
+}
+/*Поле регистрации*/
+.registration{
+  width: 400px;
+  font-size: 30px;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  background-color: rgba(9, 8, 8, 0.6);
+  text-align: center;
+  border-radius: 2%;
+}
+.registration p{
+  padding: 10px;
+}
+.registration input{
+  width: 300px;
+  height: 50px;
+  padding-left: 5%;
+}
+.registration input:focus{
+border-color: orange;
+}
+.registration p:nth-child(5){
+    font-size: 20px;
+}
+.submit{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  background-color: orange;
+  color: black;
+}
+.submit:hover{
+  background-color: rgb(57, 115, 207);
+  color: white;
+}
+/*Основной блок*/
+article{
+  color: black;
+  position: relative;
+  top: 90%;
+  font-size: 30px;
+}
+/*Блок 1*/
+article div.block1 h1{
+font-size: 40px;
+background-color: lightgray;
+border-bottom: 2px solid orange;
+width: 200px;
+margin: auto;
+}
+article div.block1 h3{
+  text-align: center;
+}
+article div.block1{
+  position: relative;
+  top: 0;
+  width: 40%;
+  left: 20%;
+}
+article div.block1 h2{
+  display: inline-block;
+  padding-left: 10px;
+}
+article div.block1 h2 a{
+text-decoration: none;
+}
+article div.block1 h2:nth-child(3) a{
+color: orange;
+}
+article div.block1  h2:first-child a:visited{
+color: orange;
+}
+article div.block1  h2:nth-child(4) a{
+color: black;
+}
+article div.block1  h2:nth-child(4) a:visited{
+color: black;
+}
+article p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.discover{
+  margin: 10px;
+  padding: 10px;
+  font-size: 17px;
+  background-color: orange;
+  display: inline-block;
+  border-radius: 5%;
+}
+div.discover a{
+  text-decoration: none;
+  color: black;
+}
+ div.discover a:hover{
+  color: white;
+}
+ div.discover:hover{
+  background-color: rgba(148, 118, 46, 0.8);
+}
+.pervaia{
+  position: absolute;
+  top: 2%;
+  right: -75%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  display: inline-block;
+}
+/*Блок 2*/
+.block2{
+  position: relative;
+  background-color: lightgray;
+}
+.block2 div{
+position: relative;
+width: 40%;
+left: 50%;
+}
+.block2 div h1{
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+}
+.block2 div img{
+  height: 25px;
+  width: 25px;
+}
+.block2 p{
+  font-size: 20px;
+}
+.vtoraia{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}

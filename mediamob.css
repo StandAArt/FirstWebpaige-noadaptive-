@@ -1,0 +1,101 @@
+@media {
+  /*Меню*/
+  nav{
+    font-size: 15px;
+  }
+  /*Левый блок Приветствие*/
+  .sectionHI{
+    width: 35%;
+    max-height: 90%;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  .sectionHI p{
+    padding: 5px;
+  }
+  .sectionHI p:nth-child(2)
+  {
+    font-size: 15px;
+  }
+  .sectionHI p:nth-child(3)
+  {
+    font-size: 10px;
+  }
+  .sectionHI div{
+    padding: 10px;
+    font-size: 12px;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 5%;
+  }
+  /*Поле регистрации*/
+.registration{
+  width: 150px;
+  font-size: 15px;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+.registration p{
+  padding: 5px;
+}
+.registration input{
+  width: 100px;
+  height: 20px;
+  padding-left: 5%;
+}
+.registration p:nth-child(5){
+    font-size: 10px;
+}
+.submit{
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  background-color: orange;
+  color: black;
+}
+/*Блок 1*/
+article div.block1 h1{
+font-size: 15px;
+text-align: center;
+}
+article div.block1{
+  font-size: 12px;
+}
+article div.block1 p{
+font-size: 10px;
+}
+.discover{
+  margin: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+.pervaia{
+  position: absolute;
+  top: 10%;
+  right: -75%;
+  width: 150px;
+  height: 150px;
+}
+/*Блок 2*/
+.block2 div h1{
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+}
+.block2 div img{
+  height: 15px;
+  width: 15px;
+}
+.block2 p{
+  font-size: 10px;
+}
+.vtoraia{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  height: 150px;
+  width: 150px;
+}
+ }
